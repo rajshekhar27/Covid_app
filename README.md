@@ -2,17 +2,17 @@
 
 A Flutter-based COVID-19 tracker app that provides real-time global and country-wise statistics of COVID-19 cases. This project demonstrates the integration of REST APIs, state management, screen-to-screen data transfer, animations, and a clean UI built using Flutter widgets.
 
-## ✨ Features
+## 📌 Features
 
-🌐 Worldwide and country-specific COVID-19 statistics
+-> Worldwide and country-specific COVID-19 statistics
 
-🔁 Real-time data using RESTful API integration
+-> Real-time data using RESTful API integration
 
-📲 Interactive UI with animated transitions
+-> Interactive UI with animated transitions
 
-🧩 Efficient screen data transfer and stateful widgets
+-> Efficient screen data transfer and stateful widgets
 
-📊 Clean and responsive layout
+-> Clean and responsive layout
 
 | Splash Screen | World wide Details | Splash Screen | World wide Details |
 |-------------|-----------------|-------------|-----------------|
@@ -27,6 +27,17 @@ A Flutter-based COVID-19 tracker app that provides real-time global and country-
 - **Stateful Widgets**
 - **Navigation and Routing**
 - **Custom Animations**
+
+## 📌 Packages Used
+
+| Package              | Description                              |
+|----------------------|------------------------------------------|
+| [`http`](https://pub.dev/packages/http) | Used for API requests and fetching COVID data |
+| [`animated_text_kit`](https://pub.dev/packages/animated_text_kit) | Animated text effects for dynamic numbers |
+| [`pie_chart`](https://pub.dev/packages/pie_chart) | To display pie charts of COVID case breakdowns |
+| [`flutter_spinkit`](https://pub.dev/packages/flutter_spinkit) | Loading indicators during data fetch |
+| [`shimmer`](https://pub.dev/packages/shimmer) | Beautiful shimmer effect while loading screens |
+
 
 
 ## 📁 Folder Structure
